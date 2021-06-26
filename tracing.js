@@ -14,7 +14,7 @@ provider.register()
 provider.addSpanProcessor(
     new SimpleSpanProcessor(
         new ZipkinExporter({
-            serviceName: 'demo'
+            serviceName: 'get-date'
         })
     )
 )

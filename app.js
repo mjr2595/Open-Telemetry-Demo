@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
+app.get('/date', (req, res) => {
+    res.json({ today: new Date() })
+})
+
 app.listen(parseInt(PORT,10), () => {
     console.log('Listening for requests on http://localhost:${PORT}')
 })
