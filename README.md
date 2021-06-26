@@ -1,5 +1,6 @@
 # Open-Telemetry-Demo
 OpenTel demo and tutorial from https://www.youtube.com/watch?v=r8UvWSX3KA8
+Additional sample code taken from https://github.com/open-telemetry/opentelemetry-js/blob/main/getting-started/README.md
 
 to start this app run:
 
